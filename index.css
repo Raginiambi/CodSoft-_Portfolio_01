@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(226, l66, 26); */
+    background-color: #B7EBB2;
+    justify-content: space-between;
+    height:45px;
+    line-height: 45px;
+    /* position: fixed; */
+    /* width:l350px; */
+}
+
+#Home_page{
+    scroll-behavior: smooth;
+}
+
+hl{
+    color: azure;
+    padding-left: l0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    padding-right: 50px;
+    list-style: none;
+}
+a{
+    color: #3D1B1B;
+    text-decoration: none;
+    font-weight:900;
+}
+a:hover{
+    border-bottom: 2px solid rgb(l89, 74, 74);
+    
+}
+#name{
+    color: #453F78;
+}
+img{
+    padding-left: 300px;
+    border: 0cap;
+    height:594px;
+    width: 665px;
+    padding-right: 0px;
+   
+}
+#Main-About{
+    height:642px;
+    width:l348px;
+    /* background-color: rgb(234, l68, 228); */
+    background-image: url(intro_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    
+}
+.lines{
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    line-height: 55px;
+    font-size: 45px;
+}
+#img_content{
+    display:inline-flex;
+    align-items: center;
+}
+#about{
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+   
+    width: l348px;
+}
+hl{
+    color:black
+}
+#profile{
+    height:380px;
+    width:385px;
+    border-radius: 50%;
+    padding: 0%;
+    margin-top: 100px;
+   margin-left: 128px;
+}
+#profile:hover{
+    border :2px solid black;
+}
+
+article{
+    padding-left: 215px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+#about2{
+    text-align: center;
+    
+}
+#info{
+    margin-top: 55px;
+    line-height: 36px;
+    margin-right: 25px;
+    color:rgb(2, 45, 49);
+    text-align: left;
+    
+}
+#info:hover{
+    border:2px solid black;
+}
+#infoh2{
+    font-size: 50px;
+    color: rgb(35, 75, 61);
+    margin-top: 37px;
+    margin-right: 0px;
+}
+#infoh2:hover{
+    border-bottom: 2px solid black;
+}
+.edu{
+    line-height: 50px;
+}
+#education{
+    text-align: center;
+    height:500px;
+    width:l348px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+#education-main{
+    height:640px;
+    width:l348px;
+    text-align: center;
+    background-image: url(edu_bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+#edu_head{
+    padding-top:50px;
+    font-size: 50px;
+    color:rgb(l88, 93, 93)
+}
+#edu-div{
+  padding-left: 70px;
+  padding-bottom: 80px;
+}
+#skills_main{
+    height:609px;
+    width:1348px;
+    background-image: url(pink.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+
+}
+#skills-div{
+   text-align: center;
+}
+
+#skills{
+    font-size: 40px;
+    margin-top:35px;
+}
+
+#skills-list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     gap: 187px;
+     margin-top:120px
+
+}
+#skills-list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     gap: 187px;
+     margin-top:100px;
+   
+}
+.skill2{
+    height:120px;
+    width:120px;
+   /* margin-top:l00px; */
+   text-align: center;
+   border:2px solid black;
+
+}
+.skill{
+    height:120px;
+    width:120px;
+    text-align: center;
+    border:2px solid black;
+   
+
+}
+.skill2:hover{
+    height:135px;
+    width:135px;
+}
+.skill:hover{
+    height:135px;
+    width:135px;
+}
+#html{
+    background-image: url(html\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+
+#css{
+    background-image: url(css\ logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+
+#js{
+    background-image: url(javascript\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+ 
+}
+
+#c{
+    background-image: url(c\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  
+}
+
+#python{
+    background-image: url(python\ logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+
+#presentation{
+    background-image: url(presentation\ skills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  
+}
+
+#time{
+    background-image: url(time\ management\ skills.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  
+}
+
+#leadership{
+    background-image: url(leadership\ skills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+#contact{
+    font-size: 45px;
+    text-align: center;
+   
+
+   
+}
+#contact_main{
+    height: 641px;
+    width: 1348px;
+    background-image: url(contact.avif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+     background-position: center;
+     
+}
+#msgs{
+    height:300px;
+    width:300px;
+    background-color: rgba(246, 134, 227, 0.4);
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* padding-top:30px; */
+    margin-top: 110px;
+    margin-left:532px;
+   
+    
+}
+input{
+    height:36px;
+    width:220px;
+    border: 0cap;
+    background-color: rgba(0,0,0, 0.5);
+    border: 0cap;
+    margin-top:30px;
+}
+::placeholder{
+    color: rgba(255, 255,255,0.8);
+    padding-left :5px;
+}
+button{
+    margin-top:30px;
+    height:30px;
+    width:90px;
+    background-color: rgba(0,0,0, 0.5);
+    color: rgba(255, 255,255,0.8);
+    border:0px;
+}
