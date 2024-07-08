@@ -4,8 +4,9 @@
 #navbar{
     display: flex;
     flex-direction: row;
-    
-    background-color: rgb(183, 235, 178);
+ background-color:#b7ebb2;
+/*     background-color:rgb(183,235,178); */
+/*     background-color: rgb(183, 235, 178); */
     justify-content: space-between;
     height:45px;
     line-height: 45px;
@@ -31,7 +32,7 @@ li{
     list-style: none;
 }
 a{
-    color: rgb(61, 27, 27);
+ color:#3d1b1b;
     text-decoration: none;
     font-weight:900;
 }
