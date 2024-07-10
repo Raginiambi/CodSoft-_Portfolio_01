@@ -364,8 +364,13 @@ button{
     height:38px;
     width:38px;
 }
+.logos:hover{
+    background-color: wheat;
+    border-radius: 50%;
+    border-bottom:0cap;
+    border: 0cap;
+}
 #CV{
-    /* margin-left: 20px; */
     width:140px;
     height:39px;
     background-color: rgba(71, 32, 64, 0.9);
